@@ -1,2 +1,0 @@
-# hachikoEnquiryModel
-Created with CodeSandbox

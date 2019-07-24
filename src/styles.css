@@ -1,0 +1,30 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.modal-content {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  pointer-events: auto;
+  background-color: #f2f8f9;
+  background-clip: padding-box;
+  border: 1px solid #f2f2f2;
+  border-radius: 0.3rem;
+  outline: 0;
+}
+
+div.scrollBar {
+  height: 250px;
+  overflow: scroll;
+}
+div.scrollBar::-webkit-scrollbar {
+  width: 5px;
+}
+
+div.scrollBar::-webkit-scrollbar-thumb {
+  background-color: #fd7e14;
+  outline: 1px solid #fd7e14;
+}
